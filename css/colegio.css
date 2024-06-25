@@ -1,0 +1,118 @@
+* {margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: ;
+}
+/*Acá tengo estilos del header */
+
+  header {
+    background-color: #152124;
+    padding: 10px 50px;
+    display: flex;
+  }  
+image-container {
+    display: flex;
+}
+.image-container img {
+width: 100%;
+}
+#logo {
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 2px solid floralwhite
+}
+header #portada {
+    position: relative;
+    font-size: 50px;
+    margin-left: 20px;
+    color: #ffffff;
+    justify-content: center;
+    align-content: center;
+
+}
+  /* Acá tengo estilos del Hero */
+#hero {
+    position: relative;
+}
+
+  #hero  #fondo {
+    
+    /* display: inline-block; */
+    width: 100%;
+  }
+  #hero .informacion-contenedor img {
+    display: flex;
+ }
+  #hero .informacion-contenedor {
+    position: absolute;
+    top: 0;
+    left: 0;
+        display: flex;
+    width: 100%;
+    color: #ffffff;
+    padding: 232px 160px;
+  }
+ 
+ #hero .informacion {
+    width: 800px;
+    font-size: 30px;
+    
+ }
+ 
+  
+  #hero .informacion-contenedor #foto-perfil {
+    width: calc(100% - 400);
+    border-radius: 20px;
+  }
+
+ span {
+display: inline-block;
+font-size: 25px;
+ }
+ /* Estilos del main */
+main p {
+    display: flex;
+    color: #ffffff;
+    font-size: 50px;
+    justify-content: center;
+    
+}
+ main {
+    padding: 100px;
+    background-color: #152124;
+ }
+    main .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        list-style: none;
+    }
+ main .social-icons li {
+    margin-left: 20px;
+ }
+  main  .social-icons .social-icon {
+    display: flex;
+background-color: #4981a7;
+justify-content: center;
+align-items: center; 
+padding: 60px;
+
+border-radius: 50px;
+width: 100%;
+height: 100%;}
+
+main .social-icons #platzi {
+
+border-radius: 20px;
+width: 100px;
+}
+main .social-icons #youtube {
+ 
+ border-radius: 20px; 
+ width: 100px;
+}
